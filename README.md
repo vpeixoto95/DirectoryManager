@@ -7,7 +7,7 @@ To build the executable, use the following command:
 dotnet publish -c Release -r <OS> --self-contained -p:PublishSingleFile=true
 ```
 
-Replace <OS> with the appropriate operating system:
+Replace `<OS>` with the appropriate operating system:
 - `win-x64` for Windows
 - `linux-x64` for Linux
 - `osx-x64` for MacOS
